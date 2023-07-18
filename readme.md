@@ -4,7 +4,7 @@ Link: [적대적 생성 신경망 기반의 영상 분할 기법을 이용한 �
 
 [Masterpaperlink]: https://sites.google.com/view/yoonheeseung-masterpaper
 
-## 1. 기술 스택 및 실행 환경
+### 1. 기술 스택 및 실행 환경
 * Python
 * Keras - Python으로 작성된 오픈 소스 신경망 라이브러리
 * Tensorflow - Backend 환경에서 구동
@@ -27,7 +27,7 @@ Link: [적대적 생성 신경망 기반의 영상 분할 기법을 이용한 �
 + 그래픽카드 : GTX-1080 (RAM 8GB)
 
 
-## 2. 실행 방법
+### 2. 실행 방법
 <details>
 <summary> 1. 데이터 학습
 
@@ -55,7 +55,10 @@ Link: [적대적 생성 신경망 기반의 영상 분할 기법을 이용한 �
 </details>
 
 
-## 3. 저작권 및 라이선스
+### 3. 저작권 및 라이선스
 * MIT
 * BSD
 * Matplotlib 라이선스
+
+---
+Contact : <iyhs1858@gmail.com> 
