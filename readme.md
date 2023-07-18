@@ -8,11 +8,13 @@ Link: [적대적 생성 신경망 기반의 영상 분할 기법을 이용한 �
 * Python
 * Keras - Python으로 작성된 오픈 소스 신경망 라이브러리
 * Tensorflow - Backend 환경에서 구동
-* Numpy - 수치 해석 라이브러리
+* CUDA v9.0 (cuDNN v7.0)
+* Numpy - Python 수치 해석 라이브러리
 * Matplotlib - Numpy 라이브러리를 활용한 플로팅 라이브러리
 * Scikit-learn - 기계 학습 라이브러리(Python용)
 * Scipy - 과학 컴퓨팅과 기술 컴퓨팅에 사용
-* CUDA v9.0 (cuDNN v7.0)
+* PIL(Pillow) - Python 이미지 프로세싱 라이브러리
+
 
 [Version](./codes/requirements.txt)
 
