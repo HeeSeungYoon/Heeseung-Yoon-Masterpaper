@@ -13,7 +13,23 @@ Link: [적대적 생성 신경망 기반의 영상 분할 기법을 이용한 �
 * Scikit-learn - 기계 학습 라이브러리(Python용)
 * Scipy - 과학 컴퓨팅과 기술 컴퓨팅에 사용
 
-## 저작권 및 라이선스
+[Version](./codes/requirements.txt)
+
+## 2. 실행 방법
+<details>
+<summary>1. 데이터 학습 </summary>  
+</details>
+
+<details>
+<summary>2. 데이터 추론 </summary>  
+</details>
+
+<details>
+<summary>3. 모델 성능 평가 </summary>  
+</details>
+
+
+## 3. 저작권 및 라이선스
 * MIT
 * BSD
 * Matplotlib 라이선스
