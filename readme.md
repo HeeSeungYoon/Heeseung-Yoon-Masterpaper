@@ -44,27 +44,30 @@ STARE image size : 605x700
 
 ### 3. 실행 방법
 <details>
-<summary> 3.1. 데이터 학습
-
-  [train.py](./codes/train.py) 실행  </summary>  
-
-* 모델 구조 : GAN
+<summary>3.1. 데이터 학습
   
-![GAN](./images/GAN.png)
-
-Discriminator 학습 후 Generator 학습
-
-* Discriminator 구조
+  [train.py](./codes/train.py) 실행 </summary>  
   
-![Discriminator](./images/Discriminator.png)
-
-* Generator 구조
-  
-![Generator](./images/Generator.png)
-
 * 학습 매개변수 설정
   
 ![Arguments](./images/train_arguments.PNG)
+
+```python
+# training settings
+os.environ['CUDA_VISIBLE_DEVICES']=FLAGS.gpu_index
+n_rounds=20
+batch_size=FLAGS.batch_size
+n_filters_d=32
+n_filters_g=32
+val_ratio=0.1
+init_lr=3e-4
+schedules={'lr_decay':{},  # learning rate and step have the same decay schedule (not necessarily the values)
+           'step_decay':{}}
+alpha_recip=1./FLAGS.ratio_gan2seg if FLAGS.ratio_gan2seg>0 else 0
+rounds_for_evaluation=range(n_rounds)
+```
+
+* 모델 : [model.py](./codes/model.py)
 
 ---
 
@@ -78,6 +81,11 @@ Discriminator 학습 후 Generator 학습
   
   [evaluation.py](./codes/evaluation.py) 실행 
 
+  * 성능 평가 척도 : Dice coefficient
+  
+  * ROC 그래프 AUC(Area Under the Curve) : Specificity, Sensitivity
+  
+  * PR 그래프 AUC : Precision, Recall(=Sensitivity)
 
 ### 4. 저작권 및 라이선스
 * MIT
