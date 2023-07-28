@@ -26,10 +26,14 @@ Link: [적대적 생성 신경망 기반의 영상 분할 기법을 이용한 �
 + RAM : 32GB
 + 그래픽카드 : GTX-1080 (RAM 8GB)
 
+### 2. Dataset
 
-### 2. 실행 방법
+![DRIVE]()
+
+
+### 3. 실행 방법
 <details>
-<summary> 1. 데이터 학습
+<summary> 3.1. 데이터 학습
 
   [train.py](./codes/train.py) 실행 </summary>  
 
@@ -39,7 +43,7 @@ Link: [적대적 생성 신경망 기반의 영상 분할 기법을 이용한 �
 
 ---
 <details>
-<summary> 2. 데이터 추론
+<summary> 3.2. 데이터 추론
 
   [inference.py](./codes/inference.py) 실행 </summary>  
   
@@ -48,14 +52,14 @@ Link: [적대적 생성 신경망 기반의 영상 분할 기법을 이용한 �
 ---
 
 <details>
-<summary>3. 모델 성능 평가 
+<summary> 3.3. 모델 성능 평가 
   
   [evaluation.py](./codes/evaluation.py) 실행 </summary>  
   
 </details>
 
 
-### 3. 저작권 및 라이선스
+### 4. 저작권 및 라이선스
 * MIT
 * BSD
 * Matplotlib 라이선스
