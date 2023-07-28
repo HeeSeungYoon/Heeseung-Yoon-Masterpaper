@@ -64,7 +64,7 @@ Discriminator 학습 후 Generator 학습
 
 * 학습 매개변수 설정
   
-![Arguments](./images/train_arguments.png)
+![Arguments](./images/train_arguments.PNG)
 
 ---
 
