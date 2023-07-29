@@ -16,7 +16,7 @@ Link: [적대적 생성 신경망 기반의 영상 분할 기법을 이용한 �
 * PIL(Pillow) - Python 이미지 프로세싱 라이브러리
 
 
-[Version](./codes/requirements.txt)
+[Requirements](./codes/requirements.txt)
 
 ---
 
