@@ -29,9 +29,7 @@ Link: [적대적 생성 신경망 기반의 영상 분할 기법을 이용한 �
 
 ### 2. Dataset
 
-<details>
-<summary> DRIVE(Digital Retinal Images for Vessel Extraction) & STARE(Structured Analysis of the Retina)
-</summary>
+<summary> DRIVE(Digital Retinal Images for Vessel Extraction) & STARE(Structured Analysis of the Retina)</summary>
   
 DRIVE image size : 584x565
 
@@ -41,11 +39,10 @@ STARE image size : 605x700
 
 ![STARE](./images/STARE.png)
 
-</details>
 
 ### 3. 실행 방법
-<details>
-<summary>3.1. 데이터 학습
+
+3.1. 데이터 학습
   
   [train.py](./codes/train.py) 실행 </summary>  
   
@@ -71,8 +68,6 @@ rounds_for_evaluation=range(n_rounds)
 * 모델 : [model.py](./codes/model.py)
 
 ---
-
-</details>
 
 3.2. 데이터 추론
   
